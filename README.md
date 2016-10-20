@@ -1,4 +1,4 @@
 # iOS-
-Creating cool emoji tables 
+Creating cool emoji tables and 
 Creating a note taking app 
 
