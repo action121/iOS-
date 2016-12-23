@@ -25,7 +25,7 @@ class PhotoMapViewController: UIViewController {
     mapView.delegate = self
 
     //one degree of latitude is approximately 111 kilometers (69 miles) at all times.
-    let sfRegion = MKCoordinateRegionMake(CLLocationCoordinate2DMake(37.783333, -122.416667),
+    let sfRegion = MKCoordinateRegionMake(CLLocationCoordinate2DMake(40.7128, -74.0059),
                                           MKCoordinateSpanMake(0.1, 0.1))
     mapView.setRegion(sfRegion, animated: false)
   }
